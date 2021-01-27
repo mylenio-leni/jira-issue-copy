@@ -10,6 +10,12 @@ requirments
 
 pip3 install jira. 
 
+Edit the credentials parts of the script with your data: 
+user = 'john.doe@something.com'
+apikey = 'YOUR JIRA API KEY'
+own_jira_server = 'https://yourJIRA.atlassian.net/'
+client_jira_server = 'https://yourClientsJIRA.atlassian.net/'
+
 usage
 
 python3 jira-issue-copy <client-issue-id> <your-jira-project-code> 
